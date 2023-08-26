@@ -1,0 +1,85 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #533f3f;;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #533f3f;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand-hover,
+.nav-produtos .nav-link.hover {
+    color:  #fff;
+}
+
+.navbar-brand {
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.cabecalho-img {
+    width: 85px;
+    height: 65px;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span,
+.text-colored {
+    color: #533f3f;
+}
+
+#sobre-o-petshop {
+    background-color: #ffeae6;
+}
+
+.section-title-roboto {
+    font-family: roboto, sans-serif;
+}
+
+.nav-produtos .nav-link.active,
+#contato button {
+    background-color: #533f3f;
+    color: #fff;
+}
+
+.nav-produtos .nav-link.hover {
+    color: #533f3f;
+}
+
+.text-colored-black {
+    color: black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.carousel,
+.carousel-item {
+    height: 800px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img,
+    .carousel {
+        height: 280px;
+    }
+}
+
